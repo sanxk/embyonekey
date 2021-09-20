@@ -13,7 +13,7 @@
 ### 步骤说明
 <br/>0. 在群辉中安装好Web Station跟EMBY
 <br/>1. 打开Web Station如图所示新建虚拟主机
-<br/>![](https://github.com/LHZ-922/embyonekey/webstation.png)
+<br/>![](https://github.com/LHZ-922/embyonekey/blob/master/webstation.png)
 
 
 
