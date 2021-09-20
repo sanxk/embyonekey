@@ -13,7 +13,7 @@
 ### 步骤说明
 <br/>0. 在群辉中安装好Web Station跟EMBY
 <br/>1. 打开Web Station如图所示新建虚拟主机
-<br/>![](https://github.com/s1oz/embyonekey/blob/master/webstation.png)
+<br/>![](https://github.com/LHZ-922/embyonekey/webstation.png)
 
 
 
@@ -51,7 +51,7 @@
 
 
 以root用户执行命令：<br/>
-</p><pre><code>wget -N --no-check-certificate "https://github.com/LHZ-922/embyonekey/master/embyonekey.sh" && chmod +x embyonekey.sh && ./embyonekey.sh</code></pre>
+</p><pre><code>wget -N --no-check-certificate "https://raw.githubusercontent.com/LHZ-922/embyonekey/master/embyonekey.sh" && chmod +x embyonekey.sh && ./embyonekey.sh</code></pre>
 
 <br/>运行完毕
 <br/>可以输入以下命令测试
@@ -67,17 +67,17 @@ curl https://mb3admin.com/admin/service/registration/validateDevice/666
 
 #### 祝大家玩得开心
 
-<br/>![](https://github.com/s1oz/embyonekey/blob/master/ko.png)
+<br/>![](https://github.com/LHZ-922/embyonekey/ko.png)
 
 #### 客户端证书安装
 如服务器正常白嫖后,客户端还是无法正确显示,一般是证书不正确,请在客户端安装证书
 ```
-https://github.com/s1oz/embyonekey/blob/master/guomi.cer 
+https://github.com/LHZ-922/embyonekey/master/guomi.cer 
 ```
 右键另存为文件名为guomi.cer的文件后安装相应设备上
 
 Windows请安装才此目录下
-<br/>![](https://github.com/s1oz/embyonekey/raw/master/window.png)
+<br/>![](https://github.com/LHZ-922/embyonekey/window.png)
 
 <br/>IOS需要安装后在设置--通用--关于手机--证书信任设置中把证书信任
 
