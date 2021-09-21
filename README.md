@@ -20,9 +20,9 @@
 
 #### 劫持mb3admin伪站
 
-如搭建伪站的NAS地址为10.0.0.10 则如下填写,根据自己实际情况修改,目的就是劫持域名到nas上
+如搭建伪站的NAS地址为10.10.10.250 则如下填写,根据自己实际情况修改,目的就是劫持域名到nas上
 
-    10.0.0.10 mb3admin.com
+    10.10.10.250 mb3admin.com
 	
 如在路由劫持,无需其他设置
 如没有在路由劫持,需修改每个客户端劫持
@@ -31,7 +31,7 @@
 <br/>登陆ssh输入以下命令
 `vi /etc/myhosts`
 <br/>i 进入编辑状态
-<br/>输入 `10.0.0.10 mb3admin.com`
+<br/>输入 `10.10.10.250 mb3admin.com`
 `:wq` 保存退出
 <br/>登陆op
 <br/>点击网络-HOSTS和解析文件-额外的HOSTS文件中加入
@@ -41,7 +41,7 @@
 <br/>登陆ssh输入以下命令
 `vi /etc/hosts`
 <br/>i 进入编辑状态
-<br/>输入 `10.0.0.10 mb3admin.com`
+<br/>输入 `10.10.10.250 mb3admin.com`
 `:wq` 保存退出
 2. Windows修改只是路径不同
 <br/>直接打开`C:\Windows\System32\drivers\etc\`目录
