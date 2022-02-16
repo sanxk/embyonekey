@@ -51,7 +51,7 @@
 
 
 以root用户执行命令：<br/>
-</p><pre><code>wget -N --no-check-certificate "https://gist.github.com/sanxk/ca06473a297d904e734b03d49ee871a3/raw/embyonekey.sh" && chmod +x embyonekey.sh && ./embyonekey.sh</code></pre>
+</p><pre><code>wget -N --no-check-certificate "https://github.com/sanxk/embyonekey/raw/master/embyonekey.sh" && chmod +x embyonekey.sh && ./embyonekey.sh</code></pre>
 
 <br/>运行完毕
 <br/>可以输入以下命令测试
@@ -80,6 +80,8 @@ Windows请安装才此目录下
 <br/>![](https://github.com/LHZ-922/embyonekey/blob/master/window.png)
 
 <br/>IOS需要安装后在设置--通用--关于手机--证书信任设置中把证书信任
+
+
 
 
 
